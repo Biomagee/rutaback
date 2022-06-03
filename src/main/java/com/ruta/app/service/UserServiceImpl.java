@@ -1,6 +1,5 @@
 package com.ruta.app.service;
 
-import com.ruta.app.dto.UserDTO;
 import com.ruta.app.entity.User;
 import com.ruta.app.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

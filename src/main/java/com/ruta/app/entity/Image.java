@@ -7,7 +7,10 @@ import javax.persistence.*;
 
 @Data
 @Entity
+@Builder
 @Table(name = "images")
+@NoArgsConstructor
+@AllArgsConstructor
 public class Image {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
