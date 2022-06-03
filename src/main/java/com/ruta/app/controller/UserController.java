@@ -41,6 +41,7 @@ public class UserController {
         return ResponseEntity.ok(oUser);
     }
 
+
     @PutMapping("/{id}")
     public ResponseEntity<?> update(@RequestBody UserDTO userDetails, @PathVariable(value = "id") Long userId) {
         Optional<UserDTO> user = userHandler.findById(userId);
